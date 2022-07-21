@@ -217,6 +217,7 @@ Main-container Style -------------
     width: 100px;
     padding: 0 5px 0 5px;
     border-radius: 5px;
+    cursor: pointer;
     
 
     
