@@ -549,7 +549,7 @@ footer{
 }
 
 
-@media only screen and  (min-width:992px)  and (max-width:1312px){
+@media only screen and  (min-width:992px)  and (max-width:1400px){
     .view-btn{
         display: none;
     }
