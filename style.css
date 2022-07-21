@@ -15,6 +15,7 @@ body{
 /* Top Banner Style */
 .top-conatiner{
     width: 100%;
+    
 }
 
 
@@ -100,12 +101,17 @@ body{
     height: 450px;
 }
 
-/* Main-container Style */
+/* -------------------
+Main-container Style -------------
+*/
+
+
 .main-container{
     margin-top: 50px;
     margin-left: 100px;
     margin-right: 100px;
     display: flex;
+    text-align: center;
 
 }
 .link-content{
@@ -200,6 +206,20 @@ body{
 
 .duration-comment span{
     margin-left: 5px;
+}
+
+/*----------------- view all--------- */
+.view-btn{
+    margin: 0 auto ;
+    text-decoration: none;
+    background-image: linear-gradient( #F70000 , red);
+    color: bisque;
+    width: 100px;
+    padding: 0 5px 0 5px;
+    border-radius: 5px;
+    
+
+    
 }
 
 /* ----------------------
@@ -351,7 +371,7 @@ All group style
 }
 
 
-/* -----todays match style all group---  */
+/* -----Update match style all group---  */
 .today-match-container{
     background-color: lightsteelblue;
     margin: 0px 100px;
@@ -447,6 +467,10 @@ footer{
     }
     .blog-content,.match-content,.group-content,.today-match{
         grid-template-columns: repeat(1,1fr);
+    }
+
+    .view-btn{
+        display: none;
     }
     footer{
        width:100%;
